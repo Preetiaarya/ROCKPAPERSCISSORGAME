@@ -1,0 +1,110 @@
+
+/* ----------------header----------------- */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+/* ----------------won-container------------- */
+
+#Won-container{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 25px;
+}
+/* ---------------img-container-----------------*/
+
+img{
+    width: 140px;
+}
+.computer-image{
+    border-radius: 50%;
+    border: dotted;
+    border-color: rgb(200, 9, 248) rgb(2, 174, 57)  rgb(255, 8, 0) yellow;
+}
+.player-image{
+    border-radius: 50%;
+    border: dotted;
+    border-color: rgb(200, 9, 248) rgb(2, 174, 57)  rgb(255, 8, 0) yellow;
+}
+
+/* --------------player(team)container----------- */
+
+.user-container {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgb(69, 150, 123);
+    height: 80px; */
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 15px;
+}
+/* ---------------choose weapon------------------- */
+
+.choose-weapon-text{
+    display: block;
+    text-align: center;
+    background-color: rgb(236, 237, 203);
+    width: 45%; 
+    min-height: 30px;
+    margin: auto;
+}
+/* -------------button-container------------------- */
+
+.button-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+} 
+ /* --------------restart-button-------------------- */
+
+.restart-button {
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+button {
+    font-size: x-large;
+    background-color: rgb(102, 214, 177);
+    border-radius: 5px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------image-container------------------ */
+
+/* .image-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.image-container img{
+    border-radius: 50%;
+    border: dotted;
+    border-color: rgb(200, 9, 248) rgb(2, 174, 57)  rgb(255, 8, 0) yellow;
+} */
