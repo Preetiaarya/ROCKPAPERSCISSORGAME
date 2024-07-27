@@ -13,7 +13,7 @@ rockButton.addEventListener("click", () => {
     const winner = compare(computerChoice, userChoice);
     computerImage.src = `./images/${computerChoice}.jpeg`;
     playerImage.src = `./images/${userChoice}.jpeg`;
-    MatchWon.textContent = `${ winner }`;
+    MatchWon.textContent = `${winner}`;
     dialogBox.style.display = "none"
 })
 
@@ -21,9 +21,9 @@ paperButton.addEventListener("click", () => {
     const userChoice = "paper"
     const computerChoice = randomChoice();
     const winner = compare(computerChoice, userChoice);
-    computerImage.src = `./images/${ computerChoice }.jpeg`;
-    playerImage.src = `./images/${ userChoice }.jpeg`;
-    MatchWon.textContent = `${ winner }`;
+    computerImage.src = `./images/${computerChoice}.jpeg`;
+    playerImage.src = `./images/${userChoice}.jpeg`;
+    MatchWon.textContent = `${winner}`;
     dialogBox.style.display = "none"
 })
 
@@ -33,32 +33,32 @@ scissorButton.addEventListener("click", () => {
     const winner = compare(computerChoice, userChoice);
     computerImage.src = `./images/${computerChoice}.jpeg`;
     playerImage.src = `./images/${userChoice}.jpeg`;
-    MatchWon.textContent = `${ winner }`;
+    MatchWon.textContent = `${winner}`;
     dialogBox.style.display = "none"
 })
 // ------------------------computer choice random-----------------
 
-function randomChoice(){
+function randomChoice() {
     let imageArr = ["rock", "paper", "scissor"]
     let randomChoice = Math.floor(Math.random() * imageArr.length);
     return imageArr[randomChoice]
 }
 
-function compare(computerChoice, playerChoice){
+function compare(computerChoice, playerChoice) {
     if (playerChoice === computerChoice) {
         return "Tie! Nobody wins :"
-    
+
     } else if (playerChoice === "rock" && computerChoice === "paper"
         || playerChoice === "scissor" && computerChoice === "rock"
         || playerChoice === "paper" && computerChoice === "scissor"
     ) {
         return "Computer Wins!"
-    
-    
+
+
     } else if (playerChoice === "rock" && computerChoice === "scissor"
         || playerChoice === "paper" && computerChoice === "rock"
         || playerChoice === "scissor" && computerChoice === "paper") {
-            
+
         return "User Wins!"
     }
 }

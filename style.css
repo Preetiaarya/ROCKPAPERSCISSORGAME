@@ -17,7 +17,7 @@ header {
     height: 80px;
     font-size: x-large;
     font-weight: bold;
-    margin-top: 25px;
+    margin-top: 2%;
 }
 /* ---------------img-container-----------------*/
 
@@ -27,9 +27,9 @@ img{
 .computer-image{
     border-radius: 50%;
     border: dotted;
-    border-color: rgb(200, 9, 248) rgb(2, 174, 57)  rgb(255, 8, 0) yellow;
+    border-color: rgb(200, 9, 248) rgb(2, 174, 57) 
 }
-.player-image{
+.Player-image{
     border-radius: 50%;
     border: dotted;
     border-color: rgb(200, 9, 248) rgb(2, 174, 57)  rgb(255, 8, 0) yellow;
@@ -72,7 +72,7 @@ img{
 }
 button {
     font-size: x-large;
-    background-color: rgb(102, 214, 177);
+    background-color: rgb(27, 177, 165);
     border-radius: 5px;
 } 
 
